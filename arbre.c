@@ -83,6 +83,7 @@ void free_tree(noeud_t *racine) {
         free(racine);
     }
 }
+
 int rechercher(noeud_t *racine, int valeur ){
     while(racine){
         if(valeur==racine->valeur)

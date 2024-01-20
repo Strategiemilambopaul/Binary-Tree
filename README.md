@@ -1,4 +1,7 @@
-#les arbres binaires
+# les arbres binaires
+
+![Alt text](image.png)
+
 En informatique, un arbre binaire est une structure de données qui peut se représenter sous la forme d'une hiérarchie dont 
 chaque élément est appelé nœud, le nœud initial étant appelé racine. Dans un arbre binaire, chaque élément possède au plus deux éléments fils au niveau inférieur, 
 habituellement appelés gauche et droit. Du point de vue de ces éléments fils, l'élément dont ils sont issus au niveau supérieur est appelé père.
@@ -7,5 +10,27 @@ Au niveau le plus élevé, niveau 0, il y a un nœud racine. Au niveau directeme
 il y a au plus deux nœuds fils. En continuant à descendre aux niveaux inférieurs, on peut en avoir quatre, 
 puis huit, seize, etc. c'est-à-dire la suite des puissances de deux. Un nœud n'ayant aucun fils est appelé feuille.
 
+- parlons des arbres binaires de recherche qui sont des arbres binaires qui 
+![Alt text](image-1.png)
 
-![image](https://github.com/Strategiemilambopaul/Arbre-binaire/assets/123554129/60fd28c8-de9c-4846-ac41-0a7f57b7d7ad)
+# *Méthode d'itération des arbres binaires*
+
+Souvent, il est souhaitable de visiter chacun des nœuds dans un arbre et d'y examiner la valeur. Il existe plusieurs ordres dans lesquels les nœuds peuvent être visités, et chacun a des propriétés utiles qui sont exploitées par les algorithmes basés sur les arbres binaires.
+-Parcours préfixe: suivant la logique *R,G,D* lors de de l'affichage des données 
+-infixe : suivant la logique *G,R,D* lors de de l'affichage des données 
+-postfixe : suivant la logique *G,D,R* lors de de l'affichage des données 
+
+N.B: R: étant la racine de l'arbre, G: le noeud gauche de chaque père, D: le noeud droit de chaque père
+
+# Execution
+-rasurez-vous que vous avez installer le compilateur *Mingw" dans votre variable d'environnement. si cela ne pas le cas click sur ce lien https://sourceforge.net/projects/mingw/,
+
+-exécuter les programmes dans un IDE de votre choix pour mon cas vscode : https://code.visualstudio.com/download
+
+-si vous avez résolu toutes les dépendances, écrivez cette commande dans le terminal 
+qui est intégré par défaut dans vscode : -> *gcc arbre.c -o bon && ./bon* 
+vous aurez la possibilité de constuire votre arbre binaire de recherche 
+et le programme vous générera automatiquement les différents parcours dans l'arbre
+ainsi que la possibilité de faire une recherche.
+
+
