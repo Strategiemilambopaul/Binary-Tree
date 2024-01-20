@@ -111,14 +111,7 @@ int main() {
         scanf("%d", &n);
         insert_noeud(&racine, n);
     }
-    // insert_noeud(&racine, 10);
-    // insert_noeud(&racine, 5);
-    // insert_noeud(&racine, 15);
-    // insert_noeud(&racine, 3);
-    // insert_noeud(&racine, 7);
-    // insert_noeud(&racine, 12);
-    // insert_noeud(&racine, 18);
-    // Affichage des étiquettes selon les différents parcours
+
     printf("Parcours préfixe : ");
     prefixe(racine);
     printf("\n");
